@@ -75,11 +75,13 @@ p {
 }
 
 .menu {
+    background-color:#60ebeb; 
     list-style: none;
     font-family: sans-serif;
-    position: absolute;
+    position: fixed;
     top: 10px;
     z-index: 10;
+    width: 100%;
 
 }
 
@@ -162,6 +164,14 @@ img {
 
 img:hover {
     transform:scale(0.9);
+}
+
+.links {
+    transition:transform .2s;
+}
+
+.links:hover {
+    transform:scale(1.2);
 }
 
 #chatbot {
